@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: flex-start; /* Align items to the start of the horizontal axis */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('image.webp'); /* Path to your background image */
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    font-family: Arial, sans-serif;
+    padding-left: 20%; /* Adjust this value to move the content more or less to the left */
+}
+
+.stopwatch {
+    background: rgba(0, 0, 0, 0.8); /* Slightly transparent black background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: white; /* Change text color to white for better contrast */
+}
+
+.display {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px;
+    color: white; /* Change button text color to white */
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white background for buttons */
+    border: 1px solid white; /* Add a white border to buttons */
+}
+
+.controls button:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Slightly less transparent on hover */
+}
+
+.laps {
+    list-style: none;
+    padding: 0;
+}
+
+.laps li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    color: white; /* Change text color to white */
+}
